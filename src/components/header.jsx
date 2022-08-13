@@ -1,12 +1,9 @@
 //package
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 const Header = () => {
-	const nav_container = useRef(null);
-	let activeStyle = {
-		textDecoration: "underline",
-	};
+
 
 	useEffect(() => {}, []);
 
