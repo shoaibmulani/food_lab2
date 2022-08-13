@@ -1,0 +1,29 @@
+@import "variables/colors";
+@import "base/reset";
+@import "mixins/mixin";
+@import "variables/fonts";
+
+
+
+
+// html,
+// body {
+//     margin: 0;
+//     padding: 0;
+//     //overflow-x: hidden;
+//     overscroll-behavior-y: none;
+//     // scrollbar-width: none; /* for Firefox */  
+// }
+
+// * {
+//     box-sizing: border-box;
+//     margin: 0;
+//     padding: 0;
+// }
+
+
+
+@import "components/pages/home";
+@import "components/pages/menu";
+@import "components/pages/contact";
+@import "components/header";
