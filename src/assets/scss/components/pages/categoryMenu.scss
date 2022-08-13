@@ -1,0 +1,67 @@
+div.categoryMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow-y: hidden;
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 85vh;
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        scroll-snap-type: x mandatory;
+        ul {
+            display: inline-block;
+            // flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            li {
+                display: inline-block;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 60vw;
+                height: 100%;
+                // margin: 20%;
+                font-family: $Lato;
+                font-size: 3rem;
+                font-weight: 300;
+                text-decoration: none;
+                transition: all 0.3s ease-in-out;
+                scroll-snap-align: start;
+                scroll-margin-left: 20vw;
+                
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    color: rgb(0, 0, 0);
+
+                    &:hover {
+                        transition: all 0.3s ease-in-out;
+                        color: #{$redLine};
+                        text-decoration: none;
+                    }
+                }
+            }
+            .li0 {
+                margin-left: 20vw;
+            }
+            .li1{
+                margin-right: 20vw;
+            }
+            
+        }
+    }
+}

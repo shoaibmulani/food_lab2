@@ -1,0 +1,101 @@
+{
+	"categories": [
+		{
+			"_uid": "1",
+			"name": "SHARING PLATES-VEG",
+            "slug": "sharing-plates-veg",
+			"image":"/images/categories/1.webp"
+		},
+		{
+			"_uid": "2",
+			"name": "SHARING PLATES- NONVEG",
+            "slug": "sharing-plates-nonveg",
+			"image":"/images/categories/2.jpg"
+
+		},
+		{
+			"_uid": "3",
+			"name": "STUFFED BAO/PAV",
+            "slug": "stuffed-bao-pav",
+			"image":"/images/categories/3.webp"
+
+		},
+		{
+			"_uid": "4",
+			"name": "EGGS TO ORDER",
+            "slug": "eggs-to-order",
+			"image":"/images/categories/4.jpg"
+
+		},
+		{
+			"_uid": "5",
+			"name": "MOMOS",
+            "slug": "momos",
+			"image":"/images/categories/5.jpg"
+
+		},
+		{
+			"_uid": "6",
+			"name": "SHAWARMA",
+            "slug": "shawarma",
+			"image":"/images/categories/6.jpg"
+
+		},
+		{
+			"_uid": "7",
+			"name": "WRAPS AND ROLLS",
+            "slug": "wraps-and-rolls",
+			"image":"/images/categories/7.webp"
+
+		},
+		{
+			"_uid": "8",
+			"name": "PIZZA",
+            "slug": "pizza",
+			"image":"/images/categories/8.webp"
+
+		},
+		{
+			"_uid": "9",
+			"name": "OPEN SANDWICHES",
+            "slug": "open-sandwiches",
+			"image":"/images/categories/9.jpg"
+
+		},
+		{
+			"_uid": "10",
+			"name": "BURGERS",
+            "slug": "burgers",
+			"image":"/images/categories/10.jpg"
+
+		},
+		{
+			"_uid": "11",
+			"name": "PASTA",
+            "slug": "pasta",
+			"image":"/images/categories/11.webp"
+
+		},
+		{
+			"_uid": "12",
+			"name": "DESSERTS",
+            "slug": "desserts",
+			"image":"/images/categories/12.jpg"
+
+		},
+		{
+			"_uid": "13",
+			"name": "HOT BEVERAGES",
+            "slug": "hot-beverages",
+			"image":"/images/categories/13.jpg"
+
+		},
+		{
+			"_uid": "14",
+			"name": "COLD BEVERAGES",
+            "slug": "cold-beverages",
+			"image":"/images/categories/14.jpg"
+
+		}
+	]
+}
