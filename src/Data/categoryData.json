@@ -213,56 +213,56 @@
 					"name": "Classic omelet",
 					"image":"/images/items/eggs-to-order/1.webp",
 					"price": "100",
-					"description": "Served with bread"
+					"description": "Served with bread."
 				},
 				{
 					"_uid": "4.2",
 					"name": "Cheese omelet",
 					"image":"/images/items/eggs-to-order/2.webp",
 					"price": "120",
-					"description": "Served with bread"
+					"description": "Served with bread."
 				},
 				{
 					"_uid": "4.3",
 					"name": "Scrambled Eggs",
 					"image":"/images/items/eggs-to-order/3.webp",
 					"price": "100",
-					"description": "Served with bread"
+					"description": "Served with bread."
 				},
 				{
 					"_uid": "4.4",
 					"name": "Stuffed Omelet",
 					"image":"/images/items/eggs-to-order/4.webp",
 					"price": "",
-					"description": "Served with bread",
+					"description": "Served with bread.",
 					"stuffing":[
 						{
 							"_uid": "4.4.1",
 							"name": "Mushroom",
 							"image":"/images/items/eggs-to-order/stuffed-omelet/4.1.webp",
 							"price": "140",
-							"description": "Served with bread"
+							"description": "Served with bread."
 						},
 						{
 							"_uid": "4.4.2",
 							"name": "Spinach",
 							"image":"/images/items/eggs-to-order/stuffed-omelet/4.2.webp",
 							"price": "140",
-							"description": "Served with bread"
+							"description": "Served with bread."
 						},
 						{
 							"_uid": "4.4.3",
 							"name": "Creamy Chicken",
 							"image":"/images/items/eggs-to-order/stuffed-omelet/4.3.webp",
 							"price": "180",
-							"description": "Served with bread"
+							"description": "Served with bread."
 						},
 						{
 							"_uid": "4.4.4",
 							"name": "Chicken Sausage",
 							"image":"/images/items/eggs-to-order/stuffed-omelet/4.4.webp",
 							"price": "180",
-							"description": "Served with bread"
+							"description": "Served with bread."
 						}
 
 					]
@@ -274,21 +274,76 @@
 			"_uid": "5",
 			"name": "MOMOS",
             "slug": "momos",
-			"image":"/images/categories/5.jpg"
-
+			"image":"/images/categories/5.jpg",
+			"items":[
+				{
+					"_uid": "5.1",
+					"name": "Veg steamed momos",
+					"image":"/images/items/MOMOS/1.webp",
+					"price": "140",
+					"description": "Served with Soup."
+				},
+				{
+					"_uid": "5.2",
+					"name": "Chicken steamed momos",
+					"image":"/images/items/MOMOS/2.webp",
+					"price": "180",
+					"description": "Served with Soup."
+				}
+			]
 		},
 		{
 			"_uid": "6",
 			"name": "SHAWARMA",
             "slug": "shawarma",
-			"image":"/images/categories/6.jpg"
+			"image":"/images/categories/6.jpg",
+			"items":[
+				{
+					"_uid": "6.1",
+					"name": "Classic Shawarma",
+					"image":"/images/items/shawarma/1.webp",
+					"price": "150",
+					"description": "Thinly sliced slow cooked chicken rolled into homemade pita with hummus, pickled vegetables and garlic mayo."
+				},
+				{
+					"_uid": "6.2",
+					"name": "Chicken Cheese Shawarma",
+					"image":"/images/items/shawarma/2.webp",
+					"price": "170",
+					"description": "Classic Shawarma with just the right amount of cheese."
+				},
+				{
+					"_uid": "6.3",
+					"name": "Shawarma Platter",
+					"image":"/images/items/shawarma/3.webp",
+					"price": "200",
+					"description": "Thinly sliced slow cooked chicken served along with pita, hummus and pickled vegetables."
+				}
+			]
 
 		},
 		{
 			"_uid": "7",
 			"name": "WRAPS AND ROLLS",
             "slug": "wraps-and-rolls",
-			"image":"/images/categories/7.webp"
+			"image":"/images/categories/7.webp",
+			"items":[
+				{
+					"_uid": "7.1",
+					"name": "Chicken Tikka Roll",
+					"image":"/images/items/wraps-and-rolls/1.webp",
+					"price": "180",
+					"description": "Chicken cooked with Indian spices, wrapped with soft roti served with our own tikka mayo and green chutney."
+				}
+
+
+
+
+
+
+
+				
+			]
 
 		},
 		{
