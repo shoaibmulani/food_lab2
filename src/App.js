@@ -1,6 +1,10 @@
 ///pakeges
 import { Route, Routes } from "react-router-dom";
 
+
+// import categoryData from "./Data/categoryData.json";
+
+
 ///styles
 import "./assets/scss/main.scss";
 ///components
@@ -17,9 +21,16 @@ function App() {
 				<Route path="/" element={<Home />} />
 				<Route path="/contact-us" element={<Contact />} />
 				<Route path="/menu" element={<Menu />} />
+				<Route path="/menu/:slug" element={<Demo />} />
 			</Routes>
 		</div>
 	);
 }
 
+const Demo = () => {
+	return (
+		<div className="Demo">
+			<h1>Hello Demo</h1>
+		</div>);
+}
 export default App;
