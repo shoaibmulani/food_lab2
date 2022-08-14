@@ -2,7 +2,7 @@
 import { Route, Routes } from "react-router-dom";
 
 
-import categoryData from "./Data/categoryData.json";
+// import categoryData from "./Data/categoryData.json";
 
 
 ///styles
@@ -20,15 +20,8 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/contact-us" element={<Contact />} />
-				<Route path="/menu" element={<Menu />} >
-				{categoryData.categories.map((category) => {
-						return (
-							
-							<Route path={"/menu/"+ category.slug} element={<Demo />} />
-						);
-					})}
-					
-				</Route>
+				<Route path="/menu" element={<Menu />} />
+				<Route path="/menu/:slug" element={<Demo />} />
 			</Routes>
 		</div>
 	);
@@ -36,7 +29,7 @@ function App() {
 
 const Demo = () => {
 	return (
-		<div className="App">
+		<div className="Demo">
 			<h1>Hello Demo</h1>
 		</div>);
 }
